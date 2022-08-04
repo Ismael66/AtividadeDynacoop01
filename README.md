@@ -1,14 +1,1 @@
-FEITA PELO VISUAL STUDIO CODE
-
-email = Ismael@DynacoopDesafio.onmicrosoft.com
-senha = WD7eHF@E2UYtaGf
-
-app id = c28c3091-2472-4d0b-af5d-6a9b15e1ff22
-
-segredo = LB98Q~eYLJOzyRM724CY7oLDOSeiOJo-4RDZxbPF
-
-nuget pacotes = 
-- dotnet add package Microsoft.CrmSdk.CoreAssemblies --version 9.0.2.45
-- dotnet add package System.ServiceModel.Primitives --version 4.10.0-preview1.22261.2 
-- dotnet add package System.Configuration.ConfigurationManager --version 7.0.0-preview.6.22324.4
-- dotnet add package Microsoft.CrmSdk.XrmTooling.CoreAssembly --version 9.1.1.1
+ATIVIDADE FEITA PELO VISUAL STUDIO CODE
