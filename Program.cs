@@ -25,8 +25,7 @@ namespace Dynacoop
             conta["name"] = Console.ReadLine();
 
             CriaLinha();
-            Console.WriteLine("Por favor informe o telefone:");
-            conta["telephone1"] = Console.ReadLine();
+            conta["telephone1"] = ValidaTelefoneCliente();
 
             CriaLinha();
             conta["cr27f_portedeempresa"] = new OptionSetValue(OpcoesPorteEmpresa()); 
@@ -70,6 +69,19 @@ namespace Dynacoop
                 clienteId = entidadeLead.Id;
             }
             return clienteId;
+        }
+        static string ValidaTelefoneCliente()
+        {
+            Console.WriteLine("Por favor informe o telefone:");
+            var telefoneCliente = Console.ReadLine();
+            if (!Int32.TryParse(telefoneCliente, out int n))
+            {
+                CriaLinha();
+                Console.WriteLine("Numero invalido, tente novamente");
+                CriaLinha(false);
+                telefoneCliente = ValidaTelefoneCliente();
+            }
+            return telefoneCliente;
         }
         static Guid OpcoesCriarContato(IOrganizationService service)
         {
