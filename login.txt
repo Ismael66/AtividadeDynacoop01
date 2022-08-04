@@ -1,6 +1,8 @@
 email = Ismael@DynacoopDesafio.onmicrosoft.com
 senha = WD7eHF@E2UYtaGf
 
+url = https://orgf5beb5d5.crm2.dynamics.com/
+
 app id = c28c3091-2472-4d0b-af5d-6a9b15e1ff22
 
 segredo = LB98Q~eYLJOzyRM724CY7oLDOSeiOJo-4RDZxbPF
